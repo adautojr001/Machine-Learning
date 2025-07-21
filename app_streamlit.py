@@ -5,7 +5,7 @@ import numpy as np
 modelo = joblib.load('modelo_titulo_capitalizacao.pkl')
 scaler = joblib.load('scaler_titulo_capitalizacao.pkl')
 
-st.title("🧮 Previsão de Compra de Título de Capitalização")
+st.title("Previsão de Compra de Título de Capitalização")
 
 idade = st.slider("Idade", 18, 70, 30)
 renda = st.number_input("Renda mensal", 1000, 30000, 5000)
